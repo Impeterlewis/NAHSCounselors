@@ -9,3 +9,5 @@ admin.site.index_title  = "Counselor's Data"
 
 admin.site.register(StudentRecommendation)
 admin.site.register(Updates)
+admin.site.unregister(Group)
+
